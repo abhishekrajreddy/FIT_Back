@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.2",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "back",
+  "version": "1.0.0",
+  "description": "FIT Project",
+  "main": "server.js",
+  "author": "Abhishek Reddy",
+  "license": "ISC"
+}
