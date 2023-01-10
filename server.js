@@ -54,10 +54,10 @@ const userRoute = require("./routes/userRoute");
 // app.use('/',userRoute,planRoute,empRoute,customerRoute,complaintRoute)
 app.use("/", userRoute);
 
-app.use(express.static(path.join(__dirname, "../build")));
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../build"));
-});
+// app.use(express.static(path.join(__dirname, "../build")));
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "../build"));
+// });
 const port = process.env.PORT || 5000;
 
 app.listen(port, () => {
